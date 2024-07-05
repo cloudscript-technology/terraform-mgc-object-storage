@@ -1,6 +1,6 @@
 # terraform-mgc-storage-object-buckets
 
-![Static Badge](https://img.shields.io/badge/Magalu_provider-0.20.1-blue)
+![Static Badge](https://img.shields.io/badge/Magalu_provider-0.19.3-blue)
 ![License](https://img.shields.io/github/license/cloudscript-technology/terraform-mgc-object-storage-buckets.svg)
 ![GitHub Release](https://img.shields.io/github/release/cloudscript-technology/terraform-mgc-object-storage-buckets.svg)
 
@@ -20,7 +20,7 @@ This Terraform module creates and manages object storage buckets on Magalu Cloud
 ### Requirements
 
 - [Terraform](https://www.terraform.io/downloads.html) >= 1.5.7
-- Magalu Cloud account
+- Magalu Cloud account Terraform Provider == v0.19.3
 
 ### Providers
 
@@ -29,7 +29,7 @@ terraform {
   required_providers {
     mgc = {
       source = "magalucloud/mgc"
-      version = "0.20.1"
+      version = "0.19.3"
     }
   }
 }

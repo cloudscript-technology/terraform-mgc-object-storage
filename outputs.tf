@@ -1,3 +1,3 @@
 output "bucket_name" {
-  value = mgc_object_storage_buckets.bucket.bucket
+  value = mgc_object-storage_buckets.bucket.bucket
 }

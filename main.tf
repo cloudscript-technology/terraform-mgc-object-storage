@@ -2,12 +2,12 @@ terraform {
   required_providers {
     mgc = {
       source  = "magalucloud/mgc"
-      version = "0.20.1"
+      version = "0.19.3"
     }
   }
 }
 
-resource "mgc_object_storage_buckets" "bucket" {
+resource "mgc_object-storage_buckets" "bucket" {
   # Required
   bucket              = var.bucket
   bucket_is_prefix    = var.bucket_is_prefix

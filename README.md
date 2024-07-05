@@ -1,8 +1,8 @@
 # terraform-mgc-storage-object-buckets
 
 ![Static Badge](https://img.shields.io/badge/Magalu_provider-0.20.1-blue)
-![License](https://img.shields.io/github/license/cloudscript-technology/terraform-mgc-storage-object-buckets.svg)
-![GitHub Release](https://img.shields.io/github/release/cloudscript-technology/terraform-mgc-storage-object-buckets.svg)
+![License](https://img.shields.io/github/license/cloudscript-technology/terraform-mgc-object-storage-buckets.svg)
+![GitHub Release](https://img.shields.io/github/release/cloudscript-technology/terraform-mgc-object-storage-buckets.svg)
 
 ## Description
 
